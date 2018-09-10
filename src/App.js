@@ -17,7 +17,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <Button variant="contained" color="primary">
-          Hello World
+          Hello Worldd
         </Button>
         <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' playing />
       </div>
