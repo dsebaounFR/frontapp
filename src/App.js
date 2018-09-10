@@ -19,7 +19,7 @@ class App extends Component {
         <Button variant="contained" color="primary">
           Hello Worldd
         </Button>
-        <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' playing />
+        // <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' playing />
       </div>
     );
   }
