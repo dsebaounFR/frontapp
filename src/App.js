@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import Button from '@material-ui/core/Button';
-import ReactPlayer from 'react-player'
+// import ReactPlayer from 'react-player'
 
 import logo from './logo.svg';
 import './App.css';
-
-// <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' playing />
 
 class App extends Component {
   render() {
