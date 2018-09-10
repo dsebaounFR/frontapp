@@ -5,6 +5,8 @@ import ReactPlayer from 'react-player'
 import logo from './logo.svg';
 import './App.css';
 
+// <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' playing />
+
 class App extends Component {
   render() {
     return (
@@ -19,7 +21,6 @@ class App extends Component {
         <Button variant="contained" color="primary">
           Hello Worldd
         </Button>
-        // <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' playing />
       </div>
     );
   }
