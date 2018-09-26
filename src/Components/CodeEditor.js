@@ -30,8 +30,8 @@ class CodeEditor extends React.Component {
         theme="vs-dark"
         value={code}
         options={options}
-        onChange={::this.onChange}
-        editorDidMount={::this.editorDidMount}
+        onChange={this.onChange}
+        editorDidMount={this.editorDidMount}
       />
     );
   }
