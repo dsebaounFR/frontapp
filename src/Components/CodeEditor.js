@@ -1,10 +1,6 @@
 import React from 'react';
 import MonacoEditor from 'react-monaco-editor';
 
-const pStyle = {
-  textAlign: 'left'
-};
-
 class CodeEditor extends React.Component {
   constructor(props) {
     super(props);
@@ -19,8 +15,7 @@ class CodeEditor extends React.Component {
     editor.focus();
   }
   onChange(newValue, e) {
-    
-    // console.log('onChange', newValue, e);
+    console.log('onChange', newValue, e);
   }
   render() {
     const code = this.state.code;
@@ -29,9 +24,8 @@ class CodeEditor extends React.Component {
     };
     return (
       <MonacoEditor
-        style={pStyle}
-        width="800"
-        height="600"
+        width="100%"
+        height="100%"
         language="javascript"
         theme="vs-dark"
         value={code}
