@@ -19,7 +19,8 @@ class CodeEditor extends React.Component {
     editor.focus();
   }
   onChange(newValue, e) {
-    console.log('onChange', newValue, e);
+    
+    // console.log('onChange', newValue, e);
   }
   render() {
     const code = this.state.code;
