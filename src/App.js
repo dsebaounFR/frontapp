@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Button from '@material-ui/core/Button';
+import CodeEditor from './Components/CodeEditor.js'
 // import ReactPlayer from 'react-player'
 
 import logo from './logo.svg';
@@ -19,6 +20,7 @@ class App extends Component {
         <Button variant="contained" color="primary">
           Hello Worldd
         </Button>
+        <CodeEditor />
       </div>
     );
   }
